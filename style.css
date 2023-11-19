@@ -1,0 +1,171 @@
+:root {
+  --laranja: #fca311;
+  --azul: #14213d;
+  --branco: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth; /* para deixar mais lenta a subida ao clicar*/
+}
+
+.titulo {
+  font-size: 3em;
+  color: var(--laranja);
+}
+
+.subtitulo {
+  font-size: 2em;
+  color: var(--laranja);
+}
+
+.subtitulo-formacao {
+  font-size: 1.2em;
+  color: var(--azul);
+}
+
+#link-home {
+  font-size: 3em;
+  color: var(--laranja);
+  position: fixed;
+  z-index: 100;
+  right: 20px;
+  bottom: 50px;
+  background-color: var(--branco);
+  border-radius: 50%;
+}
+
+.header {
+  width: 100vw;
+  height: 3em;
+  background: var(--azul);
+  position: fixed;
+}
+.header a {
+  color: var(--laranja);
+  padding: 0 1em;
+}
+
+.header-menu {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#home {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 4em;
+  background-image: url(./assets/images/imageHome.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#home h2 {
+  color: var(--branco);
+}
+
+#sobre {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 4em;
+  color: var(--azul);
+}
+
+#dados_contato {
+  width: 100vw;
+  height: 50vh;
+  background-color: var(--azul);
+  color: var(--branco);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4em;
+}
+
+#dados_contato a {
+  color: var(--branco);
+}
+#dados_contato ul {
+  list-style: none;
+  font-size: 1.5em;
+}
+
+#dados_contato i {
+  padding-right: 0.5em;
+}
+
+#formacoes {
+  width: 100vw;
+  height: 50vh;
+  padding: 4em;
+  align-items: center;
+}
+
+#formacoes ol {
+  display: flex;
+  padding-top: 2em;
+}
+
+#formacoes li {
+  padding-right: 2em;
+}
+
+#experiencias {
+  width: 100%;
+  height: auto;
+  color: var(--branco);
+  background-image: url(./assets/images/imagem-sobre.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#experiencias ol {
+  padding: 2em 4em 4em;
+  list-style: none;
+  font-size: 1.2em;
+}
+
+#experiencias li {
+  margin-bottom: 15px;
+}
+
+.experiencias-conteudo {
+  padding: 4em;
+}
+
+.experiencias-container {
+  background-color: var(--azul);
+  opacity: 0.9;
+}
+
+.footer {
+  width: 100vw;
+  background: var(--laranja);
+  display: flex;
+  padding: 1em 4em;
+  justify-content: space-between;
+  color: var(--azul);
+}
+
+.footer a {
+  color: var(--azul);
+}
+
+.footer i {
+  padding-right: 0.5em;
+}
+
+.nav-footer {
+  padding: 0 1em;
+}
